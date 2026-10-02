@@ -1,0 +1,47 @@
+# Raw sequencing data
+raw/
+*.fastq
+*.fastq.gz
+
+# Large databases and indexes
+databases/
+*.k2d
+*.bt2
+*.bt2l
+
+# Alignment files
+*.bam
+*.bai
+*.sam
+
+# Large intermediate results
+results/host_removal/
+qc/fastp/*.fastq.gz
+
+# Archives and logs
+*.tar.gz
+*.zip
+*.log
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# QC intermediate outputs
+qc/
+
+# Full analysis outputs; selected summaries go to results_summary/
+results/
+
+# Logs
+logs/
+
+# Downloaded reference FASTA and Bowtie2 indexes
+refs/candidate_viruses/*.fa
+refs/candidate_viruses/*.fasta
+refs/candidate_viruses/*.bt2
+refs/candidate_viruses/*.bt2l
+
+# Metadata from unrelated exploratory datasets
+metadata/PRJEB62830_runs.tsv

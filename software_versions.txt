@@ -1,0 +1,14 @@
+FastQC:
+FastQC v0.11.9
+
+fastp:
+fastp 1.3.7
+
+Bowtie2:
+/usr/bin/bowtie2-align-s version 2.4.4
+
+samtools:
+samtools 1.13
+
+Kraken2:
+Kraken version 2.17.1
