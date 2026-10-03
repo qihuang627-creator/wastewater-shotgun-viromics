@@ -45,3 +45,33 @@ refs/candidate_viruses/*.bt2l
 
 # Metadata from unrelated exploratory datasets
 metadata/PRJEB62830_runs.tsv
+
+# BLAST database index files
+refs/candidate_viruses/*.ndb
+refs/candidate_viruses/*.nhr
+refs/candidate_viruses/*.nin
+refs/candidate_viruses/*.not
+refs/candidate_viruses/*.nsq
+refs/candidate_viruses/*.ntf
+refs/candidate_viruses/*.nto
+
+# Python cache
+scripts/__pycache__/
+*.pyc
+
+# Temporary / derived candidate FASTA and batch files
+results_summary/blastx_batches/
+results_summary/blastx_single/
+results_summary/sensitive_core_nt_batches/
+
+results_summary/high_priority_panel_external_contigs.fa
+results_summary/high_priority_panel_external_contigs.txt
+results_summary/blastx_retry_candidates.txt
+results_summary/no_nt_hit_candidates.txt
+results_summary/protein_level_candidates.fa
+results_summary/protein_level_candidates.txt
+results_summary/sensitive_nt_candidates.fa
+results_summary/sensitive_nt_candidates.txt
+
+# Git transfer bundles
+*.bundle

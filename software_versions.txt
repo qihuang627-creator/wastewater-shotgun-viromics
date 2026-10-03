@@ -1,14 +1,9 @@
-FastQC:
-FastQC v0.11.9
-
-fastp:
-fastp 1.3.7
-
-Bowtie2:
-/usr/bin/bowtie2-align-s version 2.4.4
-
-samtools:
-samtools 1.13
-
-Kraken2:
-Kraken version 2.17.1
+FastQC: 0.11.9
+fastp: 1.3.7
+Bowtie2: 2.4.4
+samtools: 1.13
+Kraken2: 2.17.1
+MEGAHIT: 1.2.9
+geNomad: 1.12.0 (Docker)
+geNomad database: 1.9
+NCBI BLAST+: 2.12.0+

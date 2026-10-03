@@ -1,0 +1,271 @@
+contig	length	topology	n_genes	virus_score	n_hallmarks	marker_enrichment	genomad_taxonomy	blast_ref	blast_name	blast_identity	blast_alignment_length	blast_query_coverage	blast_evalue	blast_bitscore	evidence_class
+k141_434	12126	No terminal repeats	19	0.9835	1	28.4615	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_13604	8698	No terminal repeats	1	0.9751	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_1490	8025	No terminal repeats	2	0.9796	1	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_9867	7817	No terminal repeats	3	0.9715	1	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_10055	7786	No terminal repeats	1	0.9755	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Stelpaviricetes;Patatavirales;Potyviridae								No_match_to_candidate_panel
+k141_8094	7322	No terminal repeats	11	0.9660	1	3.9499	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_778	6938	No terminal repeats	18	0.9813	3	15.8999	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_599	6761	No terminal repeats	6	0.9821	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;	NC_003630.1	PMMoV	99.498	6177	95.0	0.0	11236.0	Strong_panel_match
+k141_9183	6424	No terminal repeats	4	0.9829	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;	NC_002692.1	ToMV	99.496	6345	99.0	0.0	11538.0	Strong_panel_match
+k141_3066	6421	No terminal repeats	5	0.9828	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;	NC_022230.1	ToMMV	99.573	6330	100.0	0.0	11538.0	Strong_panel_match
+k141_4630	6414	No terminal repeats	4	0.9828	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Virgaviridae	NC_001556.1	TMGMV	98.827	6311	99.0	0.0	11232.0	Strong_panel_match
+k141_398	6382	No terminal repeats	4	0.9826	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;	NC_001367.1	TMV	98.593	6326	99.0	0.0	11188.0	Strong_panel_match
+k141_869	6234	No terminal repeats	2	0.9425	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_2232	5944	No terminal repeats	3	0.9470	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Hepelivirales;Hepeviridae								No_match_to_candidate_panel
+k141_3520	5478	ITR	7	0.9206	0	2.9737	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_4996	5274	No terminal repeats	4	0.8695	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_11532	5149	No terminal repeats	1	0.9676	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_11614	4984	No terminal repeats	2	0.9675	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Sobelivirales;Solemoviridae								No_match_to_candidate_panel
+k141_9005	4872	No terminal repeats	9	0.9691	0	4.6920	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_14034	4587	DTR	7	0.9261	0	2.9737	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_9505	4561	No terminal repeats	5	0.8471	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Stelpaviricetes;Patatavirales;Potyviridae	NC_040594.1	Picalivirus_A	98.091	2357	100.0	0.0	4104.0	Strong_panel_match
+k141_14035	4558	DTR	6	0.9187	0	2.9737	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_6353	4553	DTR	6	0.8827	0	2.9737	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_10921	4546	No terminal repeats	7	0.9795	4	9.3364	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_9395	4538	DTR	7	0.9806	4	11.2071	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_4225	4351	DTR	6	0.8839	0	2.9737	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_10726	4155	No terminal repeats	8	0.9681	0	10.2795	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_5929	4114	No terminal repeats	3	0.9745	2	3.4366	Viruses;Riboviria;Orthornavirae;Lenarviricota;Amabiliviricetes;;								No_match_to_candidate_panel
+k141_9306	4048	No terminal repeats	1	0.9698	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_240	4000	No terminal repeats	6	0.9824	0	8.3565	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_13702	3993	No terminal repeats	4	0.7037	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_13167	3962	No terminal repeats	7	0.9828	3	10.3187	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_899	3857	No terminal repeats	1	0.7604	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_5719	3848	No terminal repeats	2	0.9677	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae	NC_032436.1	Shahe_picorna_like_virus_8	98.639	3820	99.0	0.0	6767.0	Strong_panel_match
+k141_9540	3846	No terminal repeats	8	0.9645	1	4.5045	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_14041	3845	DTR	5	0.9160	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_8796	3837	No terminal repeats	9	0.8816	0	3.2371	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_14022	3831	DTR	4	0.7987	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_8693	3803	No terminal repeats	3	0.9770	1	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Stelpaviricetes;Patatavirales;Potyviridae								No_match_to_candidate_panel
+k141_3382	3762	No terminal repeats	2	0.9650	2	3.4366	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Sinhaliviridae								No_match_to_candidate_panel
+k141_6055	3629	No terminal repeats	4	0.9436	0	2.8566	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_910	3596	No terminal repeats	3	0.9029	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_6672	3536	No terminal repeats	2	0.7141	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_1007	3501	No terminal repeats	9	0.9730	0	4.6423	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8832	3397	No terminal repeats	2	0.8425	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_12122	3394	No terminal repeats	1	0.9551	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_3134	3328	No terminal repeats	6	0.9790	0	5.1524	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_9825	3306	No terminal repeats	2	0.8559	1	1.4749	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6149	3295	DTR	5	0.9029	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_3939	3204	No terminal repeats	2	0.8913	0	1.4091	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3175	3182	No terminal repeats	1	0.9714	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_5105	3103	No terminal repeats	2	0.9639	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Dicistroviridae	NC_032436.1	Shahe_picorna_like_virus_8	98.94	2642	99.0	0.0	4724.0	Strong_panel_match
+k141_14018	3081	DTR	4	0.8156	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_9568	3056	No terminal repeats	7	0.9486	0	2.9155	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8233	3009	No terminal repeats	2	0.9684	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_3500	2975	DTR	3	0.7953	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_9483	2955	No terminal repeats	1	0.9770	0	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_2059	2954	No terminal repeats	3	0.9424	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_8271	2944	No terminal repeats	3	0.9769	1	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Sobelivirales;Solemoviridae								No_match_to_candidate_panel
+k141_8037	2905	No terminal repeats	1	0.9748	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_2260	2903	No terminal repeats	1	0.7781	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_13842	2873	No terminal repeats	4	0.9616	1	4.4719	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8905	2869	DTR	3	0.9395	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_8628	2860	No terminal repeats	4	0.9592	0	3.9515	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3535	2790	No terminal repeats	1	0.9748	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Virgaviridae	NC_004422.1	Youcai_mosaic_virus	94.887	2621	99.0	0.0	4096.0	Moderate_panel_match
+k141_11762	2783	No terminal repeats	2	0.9649	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_12020	2746	No terminal repeats	5	0.9824	2	6.7076	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_683	2745	No terminal repeats	2	0.9632	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_8433	2739	No terminal repeats	6	0.9827	3	7.9360	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_4310	2694	No terminal repeats	3	0.9068	0	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_11374	2684	No terminal repeats	4	0.7143	0	0.0000	Unclassified								No_match_to_candidate_panel
+k141_2659	2656	No terminal repeats	3	0.9743	0	3.4338	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;								No_match_to_candidate_panel
+k141_14020	2639	DTR	3	0.9018	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_9237	2524	No terminal repeats	4	0.8816	0	0.9498	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_11355	2508	DTR	3	0.8876	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_268	2454	No terminal repeats	5	0.9605	2	3.4366	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_3230	2411	No terminal repeats	4	0.9824	3	6.8731	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Bromoviridae	NC_004422.1	Youcai_mosaic_virus	96.119	2396	99.0	0.0	3908.0	Strong_panel_match
+k141_2432	2360	No terminal repeats	1	0.9585	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_9106	2333	No terminal repeats	4	0.8100	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_9117	2322	No terminal repeats	2	0.8672	1	1.1095	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_5854	2316	No terminal repeats	2	0.8954	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_4124	2244	No terminal repeats	3	0.8430	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_11368	2221	No terminal repeats	3	0.9735	2	3.4366	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_12103	2205	No terminal repeats	3	0.9664	1	1.5528	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_13286	2193	No terminal repeats	3	0.9748	2	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_13209	2179	No terminal repeats	3	0.7457	1	0.8784	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_7698	2170	No terminal repeats	2	0.9662	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Tymovirales;Betaflexiviridae								No_match_to_candidate_panel
+k141_2437	2163	No terminal repeats	3	0.9554	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;;;								No_match_to_candidate_panel
+k141_12075	2151	No terminal repeats	2	0.9795	1	3.2347	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3169	2144	No terminal repeats	3	0.9115	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_11451	2142	No terminal repeats	3	0.7773	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_8899	2103	No terminal repeats	3	0.9336	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_3843	2100	No terminal repeats	2	0.8149	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_3922	2078	No terminal repeats	2	0.9757	2	2.6796	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_5722	2043	No terminal repeats	2	0.8757	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_10127	2039	No terminal repeats	2	0.9779	2	3.4366	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Virgaviridae	NC_001801.1	CGMMV	98.53	1973	99.0	0.0	3482.0	Strong_panel_match
+k141_14084	1989	DTR	3	0.7579	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_951	1978	No terminal repeats	3	0.9341	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_13741	1952	No terminal repeats	2	0.9448	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_9902	1920	No terminal repeats	3	0.9769	1	5.1548	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3450	1903	No terminal repeats	1	0.9723	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;								No_match_to_candidate_panel
+k141_4033	1872	No terminal repeats	3	0.9690	1	3.1005	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6919	1851	No terminal repeats	5	0.7350	2	3.1507	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6304	1848	No terminal repeats	2	0.9025	1	1.4749	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7810	1825	No terminal repeats	5	0.8662	1	1.4949	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1988	1816	No terminal repeats	2	0.9725	2	2.5967	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_1299	1799	No terminal repeats	2	0.9678	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_6047	1791	No terminal repeats	2	0.9752	2	2.8045	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_14040	1787	DTR	3	0.9419	1	0.8784	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_11640	1775	No terminal repeats	2	0.9698	1	3.4366	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Bromoviridae	NC_001801.1	CGMMV	99.4	1666	100.0	0.0	3022.0	Strong_panel_match
+k141_4398	1733	No terminal repeats	2	0.9782	2	3.4366	Viruses;Riboviria;Orthornavirae;Pisuviricota;Stelpaviricetes;Stellavirales;Astroviridae								No_match_to_candidate_panel
+k141_7969	1722	No terminal repeats	4	0.8628	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_5959	1674	No terminal repeats	2	0.9478	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6875	1649	No terminal repeats	2	0.9784	1	3.2711	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_9273	1645	No terminal repeats	3	0.9418	1	3.4267	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_2243	1644	No terminal repeats	2	0.9470	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1679	1643	No terminal repeats	3	0.9716	1	3.1328	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_12758	1622	No terminal repeats	3	0.9738	1	4.5936	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12110	1615	No terminal repeats	3	0.9746	1	3.2504	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_6525	1615	No terminal repeats	3	0.9531	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_212	1587	No terminal repeats	2	0.9676	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_5005	1571	No terminal repeats	1	0.9684	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Stelpaviricetes;Stellavirales;Astroviridae								No_match_to_candidate_panel
+k141_3267	1560	No terminal repeats	1	0.9741	1	1.7183	Viruses;Riboviria;;;;;								No_match_to_candidate_panel
+k141_2609	1553	No terminal repeats	2	0.9708	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;	NC_049977.1	crAss001	94.265	1552	99.0	0.0	2370.0	Moderate_panel_match
+k141_636	1528	No terminal repeats	1	0.9424	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8810	1527	No terminal repeats	1	0.9742	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_886	1524	No terminal repeats	1	0.9679	1	1.7183	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_10411	1520	No terminal repeats	3	0.9487	1	2.9492	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6263	1516	No terminal repeats	2	0.8776	1	1.7164	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7549	1509	No terminal repeats	2	0.9693	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_798	1508	No terminal repeats	1	0.9721	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_13296	1506	No terminal repeats	2	0.9528	2	3.0563	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_4661	1501	No terminal repeats	2	0.9363	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_3035	1500	No terminal repeats	2	0.9549	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_11650	1499	No terminal repeats	1	0.9747	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_11103	1494	No terminal repeats	1	0.9643	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_4388	1483	No terminal repeats	3	0.9253	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_5832	1481	No terminal repeats	2	0.9356	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_5041	1477	No terminal repeats	2	0.8953	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_4738	1474	No terminal repeats	2	0.9626	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_10148	1474	No terminal repeats	1	0.9626	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_13721	1463	No terminal repeats	2	0.9674	2	3.4366	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_6137	1457	No terminal repeats	1	0.9289	1	1.1999	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_4727	1452	No terminal repeats	3	0.8749	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_8071	1451	No terminal repeats	2	0.9534	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_4198	1446	No terminal repeats	2	0.9518	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_9965	1444	No terminal repeats	2	0.8861	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_9623	1441	No terminal repeats	2	0.9438	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_9882	1437	No terminal repeats	4	0.8622	1	1.5070	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6717	1434	No terminal repeats	2	0.8699	1	1.2011	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_9949	1429	No terminal repeats	3	0.9676	2	3.4366	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_12037	1419	No terminal repeats	1	0.9699	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_9052	1417	No terminal repeats	2	0.9772	1	3.4366	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Virgaviridae	NC_001801.1	CGMMV	99.506	1416	99.0	0.0	2575.0	Strong_panel_match
+k141_10275	1409	No terminal repeats	1	0.9674	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_10348	1407	No terminal repeats	1	0.9656	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_6073	1403	No terminal repeats	3	0.8293	1	3.2624	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7980	1397	No terminal repeats	2	0.9553	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12601	1396	No terminal repeats	2	0.9591	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Tymovirales;Betaflexiviridae								No_match_to_candidate_panel
+k141_13490	1389	No terminal repeats	3	0.9814	3	5.1548	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_6809	1388	No terminal repeats	2	0.9472	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_13383	1387	No terminal repeats	1	0.9734	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_9172	1386	No terminal repeats	2	0.8654	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1275	1384	No terminal repeats	2	0.9761	2	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_11093	1384	No terminal repeats	1	0.8799	1	1.3173	Viruses;Riboviria;;;;;								No_match_to_candidate_panel
+k141_7324	1377	No terminal repeats	4	0.7846	1	1.4563	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8764	1368	No terminal repeats	2	0.8731	1	1.3471	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1355	1361	No terminal repeats	4	0.9626	3	5.1548	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_426	1359	No terminal repeats	1	0.9678	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_7108	1354	No terminal repeats	2	0.9660	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_5783	1352	No terminal repeats	3	0.9273	1	3.3769	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_9797	1347	No terminal repeats	2	0.9779	2	3.4366	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;;								No_match_to_candidate_panel
+k141_7358	1345	No terminal repeats	4	0.9328	2	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_10248	1343	No terminal repeats	2	0.9035	1	0.8784	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;Circoviridae								No_match_to_candidate_panel
+k141_8477	1338	No terminal repeats	1	0.9751	1	1.5240	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12750	1331	No terminal repeats	2	0.9389	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;Autographiviridae								No_match_to_candidate_panel
+k141_9162	1327	No terminal repeats	2	0.9735	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_13894	1318	No terminal repeats	1	0.8734	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_13235	1318	No terminal repeats	1	0.8592	1	1.7133	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_13961	1313	No terminal repeats	4	0.8303	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_5348	1307	No terminal repeats	3	0.9716	3	4.2049	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6040	1303	No terminal repeats	1	0.8970	1	1.2284	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6908	1302	No terminal repeats	1	0.9101	1	1.5528	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_893	1296	No terminal repeats	1	0.9741	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_7411	1296	No terminal repeats	4	0.9671	1	4.7107	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12488	1287	No terminal repeats	3	0.8514	1	1.4209	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6900	1285	No terminal repeats	3	0.8507	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cossaviricota;Papovaviricetes;Zurhausenvirales;Papillomaviridae								No_match_to_candidate_panel
+k141_825	1280	No terminal repeats	2	0.8886	1	1.5528	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_5383	1275	No terminal repeats	1	0.9713	1	1.7183	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_6085	1264	No terminal repeats	1	0.9706	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6618	1256	No terminal repeats	2	0.8698	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1316	1253	No terminal repeats	3	0.9238	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;								No_match_to_candidate_panel
+k141_1388	1242	No terminal repeats	2	0.9210	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_1798	1229	No terminal repeats	1	0.8902	1	1.7096	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_10334	1228	No terminal repeats	1	0.9740	1	1.7183	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_2986	1228	No terminal repeats	4	0.9466	1	1.5322	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_1834	1226	No terminal repeats	3	0.9332	1	3.4255	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_10963	1225	No terminal repeats	2	0.9123	1	1.4520	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3671	1225	No terminal repeats	2	0.7545	1	1.7084	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_2356	1222	No terminal repeats	2	0.9731	1	3.4366	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Alsuviricetes;Martellivirales;Bromoviridae	NC_004422.1	Youcai_mosaic_virus	93.429	1111	91.0	0.0	1648.0	Moderate_panel_match
+k141_12456	1219	No terminal repeats	1	0.9745	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_112	1215	No terminal repeats	2	0.9678	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3744	1207	No terminal repeats	2	0.9557	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8564	1201	No terminal repeats	3	0.9730	1	5.0680	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;Schitoviridae								No_match_to_candidate_panel
+k141_10796	1184	No terminal repeats	4	0.9567	2	5.1548	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12437	1177	No terminal repeats	2	0.9775	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_13129	1174	No terminal repeats	1	0.9702	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;								No_match_to_candidate_panel
+k141_6441	1169	No terminal repeats	1	0.9674	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_12373	1165	No terminal repeats	1	0.9032	1	1.5151	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7983	1165	No terminal repeats	2	0.8991	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_5407	1163	No terminal repeats	1	0.9525	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_7742	1162	No terminal repeats	1	0.9699	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_6064	1155	No terminal repeats	2	0.7600	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_14021	1153	DTR	3	0.9509	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_11651	1147	No terminal repeats	1	0.9705	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_7275	1143	No terminal repeats	1	0.9594	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;								No_match_to_candidate_panel
+k141_13041	1143	No terminal repeats	3	0.8817	2	3.4366	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_11122	1142	No terminal repeats	1	0.9284	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_1232	1134	No terminal repeats	2	0.9688	1	1.5322	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_332	1131	No terminal repeats	2	0.8322	1	1.4007	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_4904	1129	No terminal repeats	2	0.9537	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;Autographiviridae								No_match_to_candidate_panel
+k141_11356	1128	No terminal repeats	1	0.9459	1	1.5164	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_429	1119	No terminal repeats	1	0.9660	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_2641	1114	No terminal repeats	1	0.9421	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_6068	1113	No terminal repeats	2	0.9696	1	1.5528	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_13417	1108	No terminal repeats	2	0.9635	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3248	1103	No terminal repeats	2	0.9743	1	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7998	1096	No terminal repeats	3	0.8539	1	1.7183	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_13298	1091	No terminal repeats	3	0.9600	2	3.4366	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Genomoviridae								No_match_to_candidate_panel
+k141_782	1090	No terminal repeats	1	0.9695	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_9063	1090	No terminal repeats	2	0.8295	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_11870	1086	No terminal repeats	3	0.9611	1	3.4366	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_4249	1086	No terminal repeats	1	0.9377	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_4523	1086	No terminal repeats	3	0.9108	2	2.8013	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6396	1083	No terminal repeats	1	0.9723	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_3041	1083	No terminal repeats	1	0.9001	1	1.4865	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Repensiviricetes;Geplafuvirales;Geminiviridae								No_match_to_candidate_panel
+k141_4311	1081	No terminal repeats	1	0.9552	1	1.7183	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_10528	1081	No terminal repeats	1	0.9546	1	1.7183	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_8551	1079	No terminal repeats	1	0.9579	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_7929	1076	No terminal repeats	1	0.9243	1	1.1011	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_2911	1076	No terminal repeats	2	0.9176	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_6491	1064	No terminal repeats	1	0.9716	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_12506	1064	No terminal repeats	2	0.8328	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Crassvirales;								No_match_to_candidate_panel
+k141_13997	1063	No terminal repeats	2	0.9079	1	1.7183	Viruses;Riboviria;Orthornavirae;Pisuviricota;Pisoniviricetes;Picornavirales;Picornaviridae								No_match_to_candidate_panel
+k141_752	1060	No terminal repeats	1	0.9717	1	1.5528	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_12233	1059	No terminal repeats	3	0.9632	3	5.1548	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_7993	1058	No terminal repeats	3	0.9785	1	5.1548	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_267	1056	No terminal repeats	3	0.8859	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_1605	1055	No terminal repeats	3	0.9688	1	3.2610	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_117	1052	No terminal repeats	3	0.9545	1	3.1867	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_4746	1051	No terminal repeats	3	0.8861	1	1.4007	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_8399	1045	No terminal repeats	2	0.9013	1	1.7183	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_7253	1044	No terminal repeats	1	0.9591	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Magsaviricetes;Nodamuvirales;Nodaviridae								No_match_to_candidate_panel
+k141_5049	1041	No terminal repeats	1	0.9697	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_8946	1033	No terminal repeats	2	0.9707	2	3.4366	Viruses;Riboviria;Orthornavirae;Lenarviricota;Leviviricetes;Norzivirales;Fiersviridae								No_match_to_candidate_panel
+k141_8219	1033	No terminal repeats	2	0.9609	1	2.9865	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_12692	1033	No terminal repeats	2	0.8192	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_12404	1031	No terminal repeats	1	0.7239	1	1.4007	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_10432	1030	No terminal repeats	1	0.9677	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_957	1025	No terminal repeats	2	0.9370	1	1.7183	Viruses;Riboviria;Orthornavirae;Kitrinoviricota;Tolucaviricetes;Tolivirales;Tombusviridae								No_match_to_candidate_panel
+k141_9914	1023	No terminal repeats	1	0.9542	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_12607	1017	No terminal repeats	1	0.8202	1	0.9613	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Cirlivirales;								No_match_to_candidate_panel
+k141_10900	1016	No terminal repeats	2	0.9703	2	2.9750	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_11683	1015	No terminal repeats	3	0.9587	2	3.2279	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_9352	1014	No terminal repeats	2	0.9425	1	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_7488	1011	No terminal repeats	2	0.9747	1	1.5498	Viruses;Monodnaviria;Sangervirae;Phixviricota;Malgrandaviricetes;Petitvirales;Microviridae								No_match_to_candidate_panel
+k141_2171	1008	No terminal repeats	1	0.7239	1	1.2465	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_3218	1004	No terminal repeats	2	0.7225	1	1.7000	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
+k141_11756	1001	No terminal repeats	1	0.9492	1	1.7183	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;;;								No_match_to_candidate_panel
+k141_8514	1000	No terminal repeats	1	0.9713	1	1.4774	Viruses;Monodnaviria;Shotokuvirae;Cressdnaviricota;Arfiviricetes;Mulpavirales;Nanoviridae								No_match_to_candidate_panel
+k141_7994	1000	No terminal repeats	2	0.7544	1	1.2657	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;								No_match_to_candidate_panel
