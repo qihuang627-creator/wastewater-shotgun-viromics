@@ -1,25 +1,24 @@
 # Wastewater Shotgun Viromics
 
-A reproducible, evidence-aware workflow for **non-target shotgun wastewater metagenomics**, integrating reference-based viral screening with de novo viral discovery and hierarchical sequence characterization.
+A reproducible workflow for **non-target shotgun wastewater metagenomics**, integrating reference-based viral screening with de novo viral discovery and hierarchical sequence characterization.
 
-The current repository contains a completed **single-sample case study** used to develop and validate the workflow. A multi-sample implementation is the next stage of the project.
+This repository currently contains a completed **single-sample case study** used to develop and test the workflow. The next stage will extend the workflow to multiple wastewater samples and construct a nonredundant viral catalog.
 
-## Project goals
+## Overview
 
-This project demonstrates how shotgun wastewater metagenomic reads can be processed from raw FASTQ files to interpretable viral signals while avoiding over-reliance on any single classification method.
+The workflow combines complementary evidence rather than relying on a single classifier:
 
-The workflow combines:
+1. read quality control;
+2. human-read depletion;
+3. read-level taxonomic screening;
+4. candidate-virus reference mapping;
+5. de novo metagenomic assembly;
+6. viral contig detection with geNomad;
+7. read-back mapping and coverage assessment;
+8. integration of sequence and read-support evidence;
+9. hierarchical nucleotide and protein homology searches for selected candidates.
 
-- read quality control and host depletion;
-- taxonomic screening;
-- reference-based candidate validation;
-- de novo metagenomic assembly;
-- viral contig detection;
-- read-support assessment;
-- hierarchical nucleotide and protein homology searches;
-- explicit separation of high-confidence, divergent, and unresolved candidates.
-
-The workflow is intended for **non-target metagenomic sequencing**, not hybrid-capture data.
+This repository focuses on **non-target / non-capture shotgun metagenomics**.
 
 ## Workflow
 
@@ -27,103 +26,179 @@ The workflow is intended for **non-target metagenomic sequencing**, not hybrid-c
 flowchart TD
     A[Paired-end shotgun reads] --> B[fastp QC]
     B --> C[Bowtie2 human depletion]
-    C --> D[Kraken2 taxonomic screening]
 
-    C --> E[MEGAHIT de novo assembly]
-    E --> F[Contigs >= 1 kb]
-    F --> G[geNomad viral detection]
-    G --> H[Reads mapped back to viral contigs]
-    H --> I[Coverage breadth and depth]
-    I --> J[Viral contig evidence table]
+    C --> D[Kraken2 screening]
+    D --> E[Candidate reference panel]
+    E --> F[Competitive reference mapping]
 
-    D --> K[Candidate reference panel]
-    K --> L[Competitive reference mapping]
-    L --> M[Genome breadth/depth]
-    E --> N[Contig-to-candidate BLAST]
-    M --> J
-    N --> J
+    C --> G[MEGAHIT assembly]
+    G --> H[Contigs >= 1 kb]
+    H --> I[geNomad viral detection]
+    I --> J[Read-back mapping]
+    J --> K[Coverage breadth and depth]
 
-    J --> O[High-priority contigs]
-    O --> P[core_nt megablast]
-    P --> Q[Standard BLASTn for unresolved candidates]
-    Q --> R[Conditional BLASTx protein follow-up]
-The nucleotide/protein characterization branch is optional follow-up, not a step that should be repeated exhaustively for every contig or every sample.
+    F --> L[Evidence integration]
+    G --> L
+    K --> L
 
-Single-sample case study
+    L --> M[High-priority viral contigs]
+    M --> N[core_nt megablast]
+    N --> O[Sensitive BLASTn if needed]
+    O --> P[BLASTx if nucleotide evidence remains weak]
+```
 
-Development sample:
+The final BLAST-based characterization branch is a **targeted follow-up step**, not something intended to be repeated exhaustively for every viral contig.
 
-Field	Value
-BioProject	PRJEB87273
-Run	ERR14789190
-Library strategy	WGS / METAGENOMIC
-Library selection	RANDOM
-Layout	PAIRED
-Capture	Non-target / non-capture
+## Development dataset
 
-The sample was used as a workflow-development and smoke-test dataset. No specific virus was assumed to be present a priori.
+The current case study uses run **ERR14789190** from **PRJEB87273**.
 
-Key results
-Stage	Result
-Input read pairs	408,438
-Non-human read pairs retained	408,429
-Kraken2 classified pairs	7.07%
-Kraken2 virus-classified pairs	3.58%
-MEGAHIT contigs	8,545
-Assembly size	6.36 Mb
-Contigs >=1 kb	889
-Contigs >=3 kb	63
-geNomad viral contigs	270
-High read-support viral contigs	39
-High-priority >=3 kb panel-external contigs	17
+| Field | Value |
+|---|---|
+| Library strategy | WGS |
+| Source | METAGENOMIC |
+| Selection | RANDOM |
+| Layout | PAIRED |
+| Sequencing type | Non-target shotgun metagenomics |
 
-Kraken2 provided an initial screening layer, but taxonomic calls were not treated as final evidence.
+No particular virus was assumed to be present before analysis.
 
-Reference-based mapping and de novo assembly provided converging support for several candidate viral genomes. Near-full-length assembled contigs showed strong similarity to reference sequences related to PMMoV, ToMMV, ToMV, TMGMV, and TMV.
+## Single-sample results
 
-geNomad independently detected viral signal on the de novo assembled contigs without using the manually selected candidate panel. Because geNomad itself uses trained models and reference databases, this is described here as candidate-panel-independent detection, rather than fully reference-independent detection.
+| Stage | Result |
+|---|---:|
+| Input read pairs | 408,438 |
+| Non-human read pairs retained | 408,429 |
+| Kraken2 classified pairs | 7.07% |
+| Kraken2 virus-classified pairs | 3.58% |
+| MEGAHIT contigs | 8,545 |
+| Total assembly length | 6.36 Mb |
+| Contigs >= 1 kb | 889 |
+| Contigs >= 3 kb | 63 |
+| geNomad viral contigs | 270 |
+| High read-support viral contigs | 39 |
+| High-priority >= 3 kb panel-external contigs | 17 |
 
-Viral contig prioritization
+### Reference-based screening
 
-The 270 geNomad viral contigs were integrated with:
+Kraken2 was used as an initial screening tool rather than as a final species-identification method.
 
-geNomad score and taxonomy;
-candidate-panel BLAST similarity;
-read-mapping breadth;
-read depth.
+A manually defined candidate-virus reference panel was subsequently evaluated using competitive Bowtie2 mapping and genome breadth/depth measurements.
 
-Read support was divided into operational prioritization classes:
+Several candidate references showed near-complete genome coverage, including sequences related to PMMoV, ToMMV, ToMV, TMGMV, and TMV.
 
-High_read_support: >=95% breadth at 1x, >=80% breadth at 10x, and mean depth >=10x;
-Moderate_read_support: >=80% breadth at 1x, >=50% breadth at 5x, and mean depth >=3x;
-Low_read_support: below those thresholds.
+De novo assembly independently produced near-full-length contigs closely related to several of these reference sequences.
 
-These thresholds are used for prioritization only and are not virus-species confirmation criteria.
+### De novo viral discovery
 
-This produced:
+MEGAHIT assembly produced 8,545 contigs, of which 889 were at least 1 kb.
 
-39 high-read-support contigs;
-109 moderate-read-support contigs;
-122 low-read-support contigs.
+geNomad identified **270 viral contigs** from this >=1 kb assembly set.
 
-Seventeen contigs were selected as high-priority panel-external candidates because they were >=3 kb, had high read support, and did not match the original manually defined candidate panel.
+This should not be interpreted as 270 virus species. Multiple contigs may derive from the same viral genome, and one genome may also be fragmented across multiple contigs.
 
-Hierarchical sequence characterization
+### Read-support assessment
 
-Rather than performing the most computationally expensive search on every viral contig, high-priority candidates were characterized hierarchically:
+Non-human reads were mapped back to the 270 geNomad viral contigs.
 
-core_nt megablast for near-known nucleotide matches;
-standard BLASTn for candidates unresolved or weakly resolved by megablast;
-BLASTx against ClusteredNR (nr_cluster_seq) only for candidates with absent or weak nucleotide-level evidence.
+Operational prioritization categories were defined as follows:
 
-Among the 17 high-priority panel-external contigs, megablast identified strong near-known matches for two contigs and more distant nucleotide relationships for several others.
+**High read support**
 
-Nine candidates were selected for protein-level follow-up. Eight produced detectable BLASTx protein homology, while one (k141_869) remained unresolved at both the sensitive nucleotide and protein-search levels.
+- breadth at >=1x: >=95%
+- breadth at >=10x: >=80%
+- mean depth: >=10x
 
-An unresolved result is not interpreted as evidence of a novel virus.
+**Moderate read support**
 
-Repository structure
-.
+- breadth at >=1x: >=80%
+- breadth at >=5x: >=50%
+- mean depth: >=3x
+
+These thresholds are used for candidate prioritization and are not formal criteria for virus-species confirmation.
+
+The resulting distribution was:
+
+| Read-support class | Contigs |
+|---|---:|
+| High | 39 |
+| Moderate | 109 |
+| Low | 122 |
+
+### High-priority panel-external candidates
+
+Seventeen viral contigs were selected for deeper characterization using the following criteria:
+
+```text
+length >= 3 kb
+AND
+High_read_support
+AND
+No_match_to_candidate_panel
+```
+
+`No_match_to_candidate_panel` only means that a contig did not match the ten manually selected candidate references. It does **not** imply novelty or absence from public databases.
+
+## Hierarchical sequence characterization
+
+Rather than searching every viral contig with increasingly expensive methods, the 17 high-priority candidates were examined hierarchically.
+
+### Step 1: core_nt megablast
+
+Megablast was used to identify relatively close nucleotide relationships.
+
+The 17 candidates included:
+
+- 2 strong near-known nucleotide matches;
+- several partial or divergent nucleotide matches;
+- 10 candidates without a megablast hit.
+
+### Step 2: sensitive BLASTn
+
+Candidates not strongly resolved by megablast were examined with standard BLASTn against `core_nt`.
+
+Among 15 candidates entering this stage:
+
+- 11 produced nucleotide hits;
+- 4 produced no significant nucleotide hit.
+
+### Step 3: BLASTx
+
+Nine candidates with absent or weak nucleotide-level evidence were selected for protein-level follow-up against NCBI ClusteredNR (`nr_cluster_seq`).
+
+Final outcome:
+
+- 8/9 produced detectable protein-level homology;
+- 1/9 remained unresolved at the protein-search level.
+
+The unresolved candidate was `k141_869`.
+
+No-hit or weak-hit sequences are described conservatively as **unresolved or divergent candidates**, not as novel viruses.
+
+## Evidence interpretation
+
+Several principles are used throughout this project.
+
+### Kraken2 calls are screening signals
+
+Closely related viral genomes and shared sequence regions can generate ambiguous taxonomic assignments. Kraken2 classifications are therefore followed by mapping, assembly, and sequence-level analyses where appropriate.
+
+### geNomad is candidate-panel-independent, not fully reference-independent
+
+geNomad does not depend on the manually defined candidate-virus panel used in the reference-based branch. However, geNomad itself uses trained models, markers, and reference information.
+
+### Read-back mapping is not independent biological validation
+
+The same reads used for assembly are mapped back to the assembled viral contigs. This step assesses coverage consistency and support for the assembly rather than providing an independent biological replicate.
+
+### Database no-hit does not establish novelty
+
+A lack of significant nucleotide or protein similarity can reflect database incompleteness, sequence divergence, assembly properties, or limitations of the search method.
+
+## Repository structure
+
+```text
+wastewater-shotgun-viromics/
 ├── README.md
 ├── docs/
 │   ├── 01_reference_based_detection.md
@@ -151,47 +226,36 @@ Repository structure
 │   ├── 10_blastx_clusterednr.sh
 │   └── 10b_retry_single_blastx.sh
 └── software_versions.txt
+```
 
-Large raw data, databases, BAM files, complete assembly outputs, complete BLAST outputs, logs, and temporary batch files are excluded from version control.
+Large raw sequencing files, databases, BAM files, complete assembly outputs, complete BLAST outputs, logs, and temporary batch files are excluded from version control.
 
-Interpretation principles
+## Documentation
 
-Several distinctions are important throughout this workflow:
+Detailed descriptions of the two analysis branches are available here:
 
-Unclassified reads are not equivalent to non-viral reads. Environmental wastewater contains sequences absent from reduced taxonomic databases.
+- [Reference-based viral detection](docs/01_reference_based_detection.md)
+- [De novo viral discovery and candidate characterization](docs/02_de_novo_viral_discovery.md)
 
-Kraken2 assignments are screening signals, not species confirmation. Closely related viruses may share sequence and produce ambiguous assignments.
+## Next stage: multi-sample analysis
 
-Read remapping is not independent biological validation. The same reads were used for assembly; remapping is used to evaluate coverage consistency and identify poorly supported assemblies.
+The single-sample case study was intentionally used to develop and evaluate individual analysis modules.
 
-A viral contig is not equivalent to a virus species. Multiple contigs may originate from the same genome, and a single genome may be fragmented.
+The multi-sample workflow will focus on a common viral catalog:
 
-No database hit does not demonstrate novelty. Candidates without significant nucleotide or protein similarity are reported conservatively as unresolved or divergent.
+```text
+multiple samples
+    |
+    +-- QC
+    +-- host depletion
+    +-- per-sample assembly
+    +-- viral detection
+    +-- pooled viral sequences
+    +-- dereplication / clustering
+    +-- nonredundant viral catalog
+    +-- all-sample mapping to the common catalog
+    +-- sample-by-virus abundance matrix
+    +-- prevalence and comparative analyses
+```
 
-Documentation
-
-Detailed reference-based validation:
-
-Reference-based viral detection
-
-De novo viral discovery, evidence integration, and hierarchical characterization:
-
-De novo viral discovery
-Next stage: multi-sample analysis
-
-The current single-sample analysis was intentionally used to test individual analytical modules.
-
-The multi-sample workflow will be simplified into a reproducible core pipeline:
-
-samples
-  -> QC
-  -> host depletion
-  -> assembly
-  -> viral detection
-  -> pooled viral catalog
-  -> dereplication / clustering
-  -> all-sample mapping to a common catalog
-  -> sample x viral-contig abundance matrix
-  -> prevalence and taxonomic analysis
-
-Deep megablast -> sensitive BLASTn -> BLASTx characterization will remain an optional branch for selected representative viral sequences rather than being repeated independently for every sample.
+Deep megablast, sensitive BLASTn, and BLASTx characterization will remain an optional downstream branch for selected representative sequences.
