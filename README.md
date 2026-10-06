@@ -82,7 +82,9 @@ Ordination and clustering
 
 The multi-sample analysis is automated from raw-read processing through community ordination and clustering.
 
-![Snakemake workflow](docs/workflow_rulegraph.png)
+<p align="center">
+  <img src="docs/workflow_rulegraph.svg" alt="Snakemake workflow" height="550">
+</p>
 
 The workflow contains the following major rules:
 

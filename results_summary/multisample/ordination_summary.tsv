@@ -1,0 +1,5 @@
+analysis	axis	explained_positive_variance_pct
+Jaccard	PCoA1	23.1849
+Jaccard	PCoA2	20.6000
+BrayCurtis_sqrtTPM	PCoA1	38.1118
+BrayCurtis_sqrtTPM	PCoA2	22.1861
