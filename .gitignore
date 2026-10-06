@@ -1,77 +1,132 @@
+# ============================================================
+# Local configuration
+# ============================================================
+config/config.yaml
+
+
+# ============================================================
 # Raw sequencing data
+# ============================================================
 raw/
 *.fastq
 *.fastq.gz
+*.fq
+*.fq.gz
 
-# Large databases and indexes
+
+# ============================================================
+# Reference databases
+# ============================================================
 databases/
-*.k2d
-*.bt2
-*.bt2l
 
-# Alignment files
-*.bam
-*.bai
-*.sam
 
-# Large intermediate results
-results/host_removal/
-qc/fastp/*.fastq.gz
-
-# Archives and logs
-*.tar.gz
-*.zip
-*.log
-
-# Temporary files
-*.tmp
-*~
-.DS_Store
-
-# QC intermediate outputs
+# ============================================================
+# Intermediate analysis outputs
+# ============================================================
 qc/
-
-# Full analysis outputs; selected summaries go to results_summary/
 results/
 
+
+# ============================================================
 # Logs
+# ============================================================
 logs/
+*.log
 
-# Downloaded reference FASTA and Bowtie2 indexes
-refs/candidate_viruses/*.fa
-refs/candidate_viruses/*.fasta
-refs/candidate_viruses/*.bt2
-refs/candidate_viruses/*.bt2l
 
-# Metadata from unrelated exploratory datasets
-metadata/PRJEB62830_runs.tsv
-
-# BLAST database index files
-refs/candidate_viruses/*.ndb
-refs/candidate_viruses/*.nhr
-refs/candidate_viruses/*.nin
-refs/candidate_viruses/*.not
-refs/candidate_viruses/*.nsq
-refs/candidate_viruses/*.ntf
-refs/candidate_viruses/*.nto
-
-# Python cache
-scripts/__pycache__/
+# ============================================================
+# Local virtual environments / Python cache
+# ============================================================
+.venv*/
+__pycache__/
 *.pyc
 
-# Temporary / derived candidate FASTA and batch files
+
+# ============================================================
+# Snakemake working files
+# ============================================================
+.snakemake/
+
+
+# ============================================================
+# Alignment / database intermediates
+# ============================================================
+*.bam
+*.bai
+*.bt2
+*.bt2l
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+
+
+# ============================================================
+# OS / editor files
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+
+# ============================================================
+# Local installation packages
+# ============================================================
+*.whl
+
+
+# ============================================================
+# Git transfer bundles
+# ============================================================
+*.bundle
+
+
+# ============================================================
+# Temporary / batch search outputs
+# ============================================================
 results_summary/blastx_batches/
 results_summary/blastx_single/
 results_summary/sensitive_core_nt_batches/
 
-results_summary/high_priority_panel_external_contigs.fa
-results_summary/high_priority_panel_external_contigs.txt
-results_summary/blastx_retry_candidates.txt
-results_summary/no_nt_hit_candidates.txt
-results_summary/protein_level_candidates.fa
-results_summary/protein_level_candidates.txt
-results_summary/sensitive_nt_candidates.fa
-results_summary/sensitive_nt_candidates.txt
 
-# Git transfer bundles
-*.bundle
+# ============================================================
+# Local CheckV helper copies
+# ============================================================
+scripts/anicalc_standalone.py
+scripts/aniclust_standalone.py
+
+
+# ============================================================
+# Legacy manual multisample wrappers
+# Superseded by the Snakemake workflow
+# ============================================================
+scripts/11_multisample_qc_host.sh
+scripts/12_multisample_assembly.sh
+scripts/13_multisample_genomad.sh
+scripts/14_build_votu_catalog.sh
+scripts/15_map_common_catalog.sh
+
+
+# ============================================================
+# Local reference FASTA collection
+# ============================================================
+refs/candidate_viruses/*.fa
+
+
+# ============================================================
+# Exploratory candidate-search outputs
+# ============================================================
+results_summary/
+
+
+# Unrelated development dataset metadata
+metadata/PRJEB62830_runs.tsv
+
+# Figure-generation scripts retained locally for now;
+# final publication-style figures are provided in docs/figures/
+scripts/19_plot_pcoa_svg.py
+scripts/20_make_final_figures.py

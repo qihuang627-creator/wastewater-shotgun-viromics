@@ -1,0 +1,8 @@
+run_accession	sample_accession	site	country	collection_date	sewage_type	latitude	longitude
+ERR14789190	SAMEA13189715	China	China	2018-03-18	sewage	NA	NA
+ERR14789327	SAMEA117873010	Valby_Copenhagen	Denmark	2017-11-01	wastewater_treatment_plant	55.66	12.52
+ERR14789328	SAMEA117873011	Valby_Copenhagen	Denmark	2018-03-01	wastewater_treatment_plant	55.66	12.52
+ERR14789331	SAMEA117873014	Valby_Copenhagen	Denmark	2018-09-05	wastewater_treatment_plant	55.66	12.52
+ERR14789332	SAMEA117873015	Valby_Copenhagen	Denmark	2018-10-04	wastewater_treatment_plant	55.66	12.52
+ERR14789236	SAMEA117873021	Japan	Japan	2018-06-22	wastewater_treatment_plant	NA	NA
+ERR14789171	SAMEA117873017	Yamoussoukro	Cote_d_Ivoire	2017-06-18	open_sewer_line	6.81	-5.27

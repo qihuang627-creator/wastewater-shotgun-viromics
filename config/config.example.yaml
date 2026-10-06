@@ -1,0 +1,97 @@
+# ============================================================
+# Wastewater shotgun virome workflow configuration
+# ============================================================
+
+samples:
+  - SAMPLE001
+  - SAMPLE002
+  - SAMPLE003
+
+threads: 8
+
+
+# ------------------------------------------------------------
+# Project directories
+# ------------------------------------------------------------
+
+paths:
+  raw: raw
+  fastp: qc/fastp
+  host_removal: results/host_removal
+  assembly: results/assembly
+  viral_discovery: results/viral_discovery
+  genomad: results/genomad
+  multisample: results/multisample
+
+
+# ------------------------------------------------------------
+# Reference databases
+# ------------------------------------------------------------
+
+# Bowtie2 index prefix for the human reference genome
+human_bowtie2_index: databases/human_GRCh38/GRCh38
+
+# geNomad database directory
+genomad_db: databases/genomad/genomad_db
+
+
+# ------------------------------------------------------------
+# geNomad
+# ------------------------------------------------------------
+
+genomad:
+  docker_image: community.wave.seqera.io/library/genomad:1.12.0--27836e6e665e84b5
+  splits: 8
+
+
+# ------------------------------------------------------------
+# Viral OTU definition
+# ------------------------------------------------------------
+
+votu:
+  # Contigs shorter than this are excluded before geNomad.
+  min_contig_length: 1000
+
+  # Species-level vOTU clustering thresholds.
+  min_ani: 95
+  min_alignment_fraction: 85
+
+
+# ------------------------------------------------------------
+# Common-catalog read mapping
+# ------------------------------------------------------------
+
+mapping:
+  min_read_identity: 95
+  min_read_aligned_percent: 75
+
+  # High-confidence viral detection criterion
+  presence_breadth: 0.75
+
+
+# ------------------------------------------------------------
+# Software
+#
+# If tools are available on PATH, names below are sufficient.
+# Otherwise replace them with absolute executable paths.
+# ------------------------------------------------------------
+
+tools:
+  fastqc: fastqc
+  fastp: fastp
+  bowtie2: bowtie2
+  samtools: samtools
+  megahit: megahit
+  blastn: blastn
+  makeblastdb: makeblastdb
+  docker: docker
+  coverm: coverm
+
+  # Python interpreter used for standalone ANI clustering scripts
+  checkv_python: python3
+  anicalc: anicalc
+  aniclust: aniclust
+
+
+# Conda environment containing CoverM and minimap2
+coverm_env: coverm_env
