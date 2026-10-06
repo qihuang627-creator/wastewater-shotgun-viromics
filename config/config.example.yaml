@@ -87,10 +87,10 @@ tools:
   docker: docker
   coverm: coverm
 
-  # Python interpreter used for standalone ANI clustering scripts
-  checkv_python: python3
-  anicalc: anicalc
-  aniclust: aniclust
+  # CheckV supporting scripts used for ANI-based vOTU clustering.
+  # Edit these paths to match the local CheckV source installation.
+  anicalc: "python3 /path/to/checkv/scripts/anicalc.py"
+  aniclust: "python3 /path/to/checkv/scripts/aniclust.py"
 
 
 # Conda environment containing CoverM and minimap2

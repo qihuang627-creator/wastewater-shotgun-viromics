@@ -522,6 +522,11 @@ Then edit:
 - software executable paths;
 - local Conda environment names if necessary.
 
+For vOTU clustering, the workflow uses the supporting `anicalc.py` and
+`aniclust.py` scripts distributed with CheckV. Set `tools.anicalc` and
+`tools.aniclust` in the local configuration to commands pointing to those
+scripts.
+
 ### Standard run
 
 ```bash
