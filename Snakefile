@@ -618,7 +618,7 @@ rule finalize_votu_catalog:
         set -euo pipefail
 
         "{params.python}" \
-            scripts/14_finalize_votu_catalog.py \
+            scripts/multisample/finalize_votu_catalog.py \
             {input.fasta} \
             {input.clusters} \
             {output.catalog} \
@@ -689,7 +689,7 @@ rule abundance_matrices:
         r"""
         set -euo pipefail
 
-        python3 scripts/16_build_votu_matrices.py \
+        python3 scripts/multisample/build_votu_matrices.py \
             --input "{input}" \
             --outdir "{ABUND_DIR}" \
             --samples {params.samples}
@@ -717,7 +717,7 @@ rule comparative_analysis:
         r"""
         set -euo pipefail
 
-        python3 scripts/17_multisample_comparison.py \
+        python3 scripts/multisample/multisample_comparison.py \
             --input "{input}" \
             --outdir "{COMP_DIR}" \
             --threshold {PRESENCE_BREADTH}
@@ -786,7 +786,7 @@ rule ordination:
         r"""
         set -euo pipefail
 
-        python3 scripts/18_multisample_ordination.py \
+        python3 scripts/multisample/multisample_ordination.py \
             --breadth "{input.breadth}" \
             --tpm "{input.tpm}" \
             --outdir "{ORD_DIR}" \

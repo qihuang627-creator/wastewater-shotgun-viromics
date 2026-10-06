@@ -620,11 +620,12 @@ wastewater-shotgun-viromics/
 │   ├── 09_sensitive_core_nt_blast.sh
 │   ├── 10_blastx_clusterednr.sh
 │   ├── 10b_retry_single_blastx.sh
-│   ├── 14_finalize_votu_catalog.py
-│   ├── 16_build_votu_matrices.py
-│   ├── 17_multisample_comparison.py
-│   ├── 17b_threshold_sensitivity.py
-│   └── 18_multisample_ordination.py
+│   └── multisample/
+│       ├── finalize_votu_catalog.py
+│       ├── build_votu_matrices.py
+│       ├── multisample_comparison.py
+│       ├── threshold_sensitivity.py
+│       └── multisample_ordination.py
 │
 └── results_summary/
 ```
