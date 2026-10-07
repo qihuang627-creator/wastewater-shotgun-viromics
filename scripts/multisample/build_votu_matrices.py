@@ -2,7 +2,6 @@
 
 import argparse
 import csv
-import re
 from collections import defaultdict, OrderedDict
 from pathlib import Path
 
@@ -20,6 +19,51 @@ samples_order = args.samples
 
 outdir.mkdir(parents=True, exist_ok=True)
 
+
+def infer_sample(sample_raw, samples):
+    """Match a CoverM Sample field to a configured sample ID."""
+
+    raw = str(sample_raw)
+    basename = Path(raw).name
+
+    # CoverM may report the sample ID directly.
+    if raw in samples:
+        return raw
+
+    if basename in samples:
+        return basename
+
+    # More commonly, CoverM reports a read filename such as:
+    # SAMPLE001_R1.nonhuman.fastq.gz
+    matches = [
+        sample
+        for sample in samples
+        if basename.startswith(sample + "_")
+    ]
+
+    if not matches:
+        raise RuntimeError(
+            "Cannot match CoverM Sample field to any configured "
+            f"sample ID: {sample_raw}"
+        )
+
+    # Handles cases such as SAMPLE and SAMPLE_01 by preferring
+    # the longest valid configured prefix.
+    max_len = max(len(sample) for sample in matches)
+    best = [
+        sample
+        for sample in matches
+        if len(sample) == max_len
+    ]
+
+    if len(best) != 1:
+        raise RuntimeError(
+            f"Ambiguous CoverM Sample field {sample_raw!r}: {best}"
+        )
+
+    return best[0]
+
+
 # -------------------------------------------------------
 # Read CoverM sparse output
 # -------------------------------------------------------
@@ -36,16 +80,7 @@ with input_file.open() as f:
     for row in reader:
 
         sample_raw = row["Sample"]
-
-        m = re.search(r"(ERR\d+)", sample_raw)
-
-        if not m:
-            raise RuntimeError(
-                f"Cannot infer ERR accession from Sample field: "
-                f"{sample_raw}"
-            )
-
-        sample = m.group(1)
+        sample = infer_sample(sample_raw, samples_order)
 
         contig_col = (
             "Contig"

@@ -406,15 +406,18 @@ rule genomad:
 
         mkdir -p "{params.outdir}"
 
+        DB_ABS="$(cd "{params.database}" && pwd -P)"
+
         "{params.docker}" run --rm \
             -u "$(id -u):$(id -g)" \
             -v "$PWD:$PWD" \
+            -v "${{DB_ABS}}:${{DB_ABS}}:ro" \
             -w "$PWD" \
             "{params.image}" \
             genomad end-to-end \
             {input.contigs} \
             "{params.outdir}" \
-            "{params.database}" \
+            "${{DB_ABS}}" \
             --threads {threads} \
             --splits {params.splits}
         """
@@ -612,7 +615,7 @@ rule finalize_votu_catalog:
         membership=VOTU_MEMBERSHIP,
         representatives=VOTU_REPS
     params:
-        python=TOOLS["checkv_python"]
+        python=TOOLS.get("python", "python3")
     shell:
         r"""
         set -euo pipefail
