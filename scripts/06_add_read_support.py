@@ -9,15 +9,15 @@ from pathlib import Path
 # ============================================================
 
 EVIDENCE = Path(
-    "results_summary/viral_contig_evidence.tsv"
+    "results_summary/single_sample/viral_contig_evidence.tsv"
 )
 
 SUPPORT = Path(
-    "results_summary/viral_contig_read_support.tsv"
+    "results_summary/single_sample/viral_contig_read_support.tsv"
 )
 
 OUT = Path(
-    "results_summary/viral_contig_evidence_with_reads.tsv"
+    "results_summary/single_sample/viral_contig_evidence_with_reads.tsv"
 )
 
 

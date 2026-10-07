@@ -11,7 +11,7 @@ BLAST = Path(
 )
 
 MASTER = Path(
-    "results_summary/"
+    "results_summary/single_sample/"
     "viral_contig_evidence_with_reads.tsv"
 )
 
@@ -21,7 +21,7 @@ QUERY_LIST = Path(
 )
 
 OUT = Path(
-    "results_summary/"
+    "results_summary/single_sample/"
     "high_priority_broad_nt_summary.tsv"
 )
 

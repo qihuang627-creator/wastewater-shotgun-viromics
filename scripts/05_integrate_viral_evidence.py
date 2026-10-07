@@ -24,7 +24,7 @@ ACCESSIONS = Path(
 )
 
 OUT = Path(
-    "results_summary/viral_contig_evidence.tsv"
+    "results_summary/single_sample/viral_contig_evidence.tsv"
 )
 
 

@@ -55,7 +55,7 @@ samtools coverage \
 
 cp \
   results/viral_validation/${SAMPLE}_candidate_coverage.tsv \
-  results_summary/candidate_coverage.tsv
+  results_summary/single_sample/candidate_coverage.tsv
 
 # Per-base depth
 samtools depth \
@@ -88,4 +88,4 @@ END {
         sum[r]/n[r],
         n[r];
 }' results/viral_validation/${SAMPLE}_candidate_depth.tsv \
-> results_summary/candidate_breadth.tsv
+> results_summary/single_sample/candidate_breadth.tsv
